@@ -1,9 +1,9 @@
 import streamlit as st
 
-# Title of the app
-st.title("🎉🔄Advanced Unit Converter")
 
-# Dictionary of categories and their respective units
+st.title("🚀🔄Advanced Unit Converter🚀")
+
+
 categories = {
     "🌐Area": ["Square Meters", "Square Kilometers", "Square Feet", "Square Miles", "Acres", "Hectares"],
     "📊Data Transfer Rate": ["Bits per Second", "Kilobits per Second", "Megabits per Second", "Gigabits per Second", "Terabits per Second"],
@@ -21,7 +21,7 @@ categories = {
     "📦Volume": ["Liters", "Milliliters", "Cubic Meters", "Gallons", "Cubic Inches", "Cubic Feet"]
 }
 
-# Dropdown to select category
+
 selected_category = st.selectbox("Select Category", list(categories.keys()))
 
 # Input for value to convert
